@@ -5,4 +5,5 @@ def gen_pass():
     password = []
     for i in range(num):
         r = random.randint(65,90)
+        letter = chr(r)
 gen_pass()
