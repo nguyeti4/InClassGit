@@ -6,5 +6,7 @@ def list_divisors(num):
         if num % i == 0:
             list.append(i)
     #print(list)
+    for i in list:
+        
 
 list_divisors(42)
