@@ -6,4 +6,5 @@ def gen_pass():
     for i in range(num):
         r = random.randint(65,90)
         letter = chr(r)
+        pass.append(letter)
 gen_pass()
