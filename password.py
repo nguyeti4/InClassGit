@@ -7,6 +7,6 @@ def gen_pass():
         r = random.randint(65,90)
         letter = chr(r)
         password = password + letter
-    print(password)
+    print("Password:" + password)
 
 gen_pass()
