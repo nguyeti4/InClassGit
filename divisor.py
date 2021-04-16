@@ -7,6 +7,6 @@ def list_divisors(num):
             list.append(i)
     #print(list)
     for i in list:
-        
+        print(str(i)+' ')
 
 list_divisors(42)
