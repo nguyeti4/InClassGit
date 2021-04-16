@@ -1,4 +1,5 @@
 def list_divisors(num):
+    #empty list
     list = []
     for i in range(1,num+1):
         if num % i == 0:
