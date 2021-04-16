@@ -10,9 +10,8 @@ def calc(a,b):
     total = 0
     for x in array:
         total += x
-    
-    #print the sum
     print(total)
-       
+
+calc(4,2)
         
  
